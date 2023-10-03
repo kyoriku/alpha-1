@@ -57,23 +57,13 @@ footer h2 {
 }
 
 /* Class Selectors */
-.box {
-  margin-bottom: 32px;
-  color: #ffffff;
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
 }
 
-.box h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.box img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.card {
+.content article {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -82,11 +72,11 @@ footer h2 {
   color: #ffffff;
 }
 
-.card img {
+.content img {
   max-height: 200px;
 }
 
-.card h2 {
+.content h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
@@ -94,6 +84,33 @@ footer h2 {
 .float-left {
   float: left;
   margin-right: 25px;
+}
+
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+}
+
+.benefits article {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+.benefits h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.benefits img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
 }
 
 /* ID Selectors */
@@ -109,24 +126,7 @@ footer h2 {
   background-position: center;
 }
 
-#content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-
 #float-right {
   float: right;
   margin-left: 25px;
-}
-
-#benefits {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #2589bd;
 }
