@@ -27,7 +27,7 @@ header h1 #seo {
   color: #d9dcd6;
 }
 
-/* changed header div to header nav to reflect the changes made in the html with semantic elements */
+/* changed from header div to header nav to reflect the changes made in the html with semantic elements */
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -36,12 +36,12 @@ header nav {
   font-size: 20px;
 }
 
-/* also had to change this from header div ul to header nav ul to follow the selector specificity */
+/* changed from header div ul to header nav ul to follow the naming convention */
 header nav ul {
   list-style-type: none;
 }
 
-/* also changed this from header div ul li to header nav ul il to keep the naming convention consistent */
+/* changed from header div ul li to header nav ul il to keep the naming convention consistent */
 header nav ul li {
   list-style-type: none;
   display: inline-block;
