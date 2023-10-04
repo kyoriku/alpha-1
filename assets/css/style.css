@@ -76,13 +76,14 @@ p {
   margin-left: 25px;
 }
 
-.content {
+/* changed from a class selector to an id selector */
+#content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-/* consolidated search-engine-optimization, online-reputation-management, social-media-marketing into content-card */
+/* consolidated .search-engine-optimization, .online-reputation-management, .social-media-marketing into .content-card */
 .content-card {
   margin-bottom: 20px;
   padding: 50px;
@@ -101,7 +102,8 @@ p {
   font-size: 36px;
 }
 
-.benefits {
+/* changed from a class selector to an id selector */
+#benefits {
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -112,7 +114,7 @@ p {
   background-color: #2589bd;
 }
 
-/* consolidated benefit-lead, benefit-brand, benefit-cost into benefits-box */
+/* consolidated .benefit-lead, .benefit-brand, .benefit-cost into .benefits-box */
 .benefits-box {
   margin-bottom: 32px;
   color: #ffffff;
