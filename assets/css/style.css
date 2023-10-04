@@ -8,7 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
-/* changed header properties from class selectors to element selectors */
+/* changed all header styles from class selectors to element selectors */
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +21,8 @@ header h1 {
   font-size: 48px;
 }
 
-header h1 .seo {
+/* changed seo from a class to an id since its only used once */
+header h1 #seo {
   color: #d9dcd6;
 }
 
