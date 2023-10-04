@@ -8,7 +8,7 @@ body {
   background-color: #d9dcd6;
 }
 
-/* changed all header styles from class selectors to element selectors */
+/* changed all header tags from class selectors to element selectors */
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
