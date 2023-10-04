@@ -1,15 +1,14 @@
-/* === Universal Selector === */
 * {
 	box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-/* === Element Selectors === */
 body {
   background-color: #d9dcd6;
 }
 
+/* changed header properties from class selectors to element selectors */
 header {
   padding: 20px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,7 +25,7 @@ header h1 .seo {
   color: #d9dcd6;
 }
 
-/* changed header div to header nav */
+/* changed header div to header nav to reflect the changes made in the html with semantic elements */
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -54,7 +53,7 @@ p {
   font-size: 16px;
 }
 
-/* moved image url to html so alt text could be added */
+/* changed hero from a class to an id since it's unique, and moved the image url to html so alt text could be added there */
 #hero {
   height: 800px;
   width: 100%;
@@ -133,7 +132,7 @@ footer {
   text-align: center;
 }
 
-/* changed h2 to h4 because h2 is already used in the content section, and h3 is being used in the benefits aside.  */ 
+/* changed h2 to h4 because h2 is already used in the content section, and h3 is being used in the benefits aside  */ 
 footer h4 {
   font-size: 20px;
 }
