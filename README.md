@@ -9,6 +9,7 @@ The purpose of this project is to refactor the existing code to meet accessibili
 ![Screenshot](assets/images/screenshot.png)
 
 ## Credits
+- Thanks Jerromy (Learning Assistant) for helping me with getting a better understanding of how to organize and structure CSS!
 - [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
 - [Why Alt Text is Important](https://moz.com/learn/seo/alt-text)
 - [Everything You Need to Know about HTML/CSS Class and ID Selectors](https://www.udacity.com/blog/2021/01/html-css-class-and-id-selectors-everything-you-need-to-know.html)
