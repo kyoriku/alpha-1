@@ -41,7 +41,7 @@ header nav ul {
   list-style-type: none;
 }
 
-/* changed from header div ul li to header nav ul il to keep the naming convention consistent */
+/* changed from header div ul li to header nav ul li to keep the naming convention consistent */
 header nav ul li {
   list-style-type: none;
   display: inline-block;
