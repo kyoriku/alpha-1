@@ -1,10 +1,7 @@
-# Code Refactor: Horiseon
+# Challenge 1: Code Refactor
 
 ## Description
-The purpose of this project is to refactor the existing code to meet accessibility standards by adding semantic HTML elements and alt text, confirm all links function correctly, consolidate and organize CSS selectors and proerties, and add comments in the CSS file. All changes were made without altering the design of the page.
-
-## Installation
-N/A
+The purpose of this project is to refactor the existing code to meet accessibility standards by adding semantic HTML elements and alt text, confirm all links function correctly, consolidate CSS selectors and proerties and organize them to follow the semantic structure of the HTML elements, and add comments in the CSS file. All changes were made without altering the design of the page.
 
 ## Usage
 -

@@ -1,11 +1,11 @@
-/* Universal Selector */
+/* === Universal Selector === */
 * {
 	box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-/* Element Selectors */
+/* === Element Selectors === */
 body {
   background-color: #d9dcd6;
 }
@@ -133,7 +133,7 @@ footer {
   text-align: center;
 }
 
-/* changed h2 to h4 because h2 is already in the content section, and h3 is being used in the benefits aside.  */ 
+/* changed h2 to h4 because h2 is already used in the content section, and h3 is being used in the benefits aside.  */ 
 footer h4 {
   font-size: 20px;
 }
