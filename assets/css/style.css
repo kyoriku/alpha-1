@@ -16,6 +16,7 @@ header {
   color: #ffffff;
 }
 
+/* changed header from a class selector to an element selector since class="header" was removed from the html */
 header h1 {
   display: inline-block;
   font-size: 48px;
@@ -35,11 +36,13 @@ header nav {
   font-size: 20px;
 }
 
+/* also had to change this from header div ul to header nav ul to follow the selector specificity */
 header nav ul {
   list-style-type: none;
 }
 
-header ul li {
+/* also changed this from header div ul li to header nav ul il to keep the naming convention consistent */
+header nav ul li {
   list-style-type: none;
   display: inline-block;
   margin-left: 25px;
@@ -79,7 +82,7 @@ p {
   margin-left: 20px;
 }
 
-/* consolidated search-engine-optimization, online-reputation-management, social-media-marketing */
+/* consolidated search-engine-optimization, online-reputation-management, social-media-marketing into content-card */
 .content-card {
   margin-bottom: 20px;
   padding: 50px;
@@ -109,7 +112,7 @@ p {
   background-color: #2589bd;
 }
 
-/* consolidated benefit-lead, benefit-brand, benefit-cost */
+/* consolidated benefit-lead, benefit-brand, benefit-cost into benefits-box */
 .benefits-box {
   margin-bottom: 32px;
   color: #ffffff;
@@ -126,6 +129,7 @@ p {
   max-width: 150px;
 }
 
+/* changed footer from a class selector to an element selector since class="footer" was removed from the html */
 footer {
   padding: 30px;
   clear: both;
