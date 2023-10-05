@@ -1,10 +1,10 @@
-# Challenge 1: Code Refactor
+# Code Refactor
 
 ## Description
 The purpose of this project is to refactor the existing code to meet accessibility standards by adding semantic HTML elements and alt text, confirm all links function correctly, consolidate CSS selectors and proerties and organize them to follow the semantic structure of the HTML elements, and add comments in the CSS file. All changes were made without altering the design of the page.
 
 ## Usage
-> [Link to deployed application]()
+> [Link to deployed application](https://kyoriku.github.io/alpha-1/)
 
 ![Screenshot](assets/images/screenshot.png)
 
